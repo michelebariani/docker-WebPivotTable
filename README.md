@@ -8,7 +8,7 @@ Run the container
 -----------------
 Example keeping same exposed port:
 
-     docker run -d -p 8002:8002 mbariani/webpivottable
+     docker run -d -p 8002:8002 --name=webpivottable mbariani/webpivottable
 
 
 [1]: http://webpivottable.com
